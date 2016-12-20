@@ -1,0 +1,21 @@
+This is version 1.0 of 3D-holo-sampler
+
+This project uses glLib library developed by Ian Mallet. On top of that, Danilo Vásquez built the interface for editing scenes, and sampling
+the objects. 
+
+To execute, just run objloadALone.
+
+This project is intellectual property of Universidad EAFIT.
+
+Requirements:
+  -Python (http://www.python.org/download/)
+     Tested with Python 2.5.4.  Probably mostly backwards compatible with 2.4.x/2.3.x.  Probably not fully compatible with 3.x.x and beyond
+     Tested with Python 2.7.12
+  -PyGame (http://www.pygame.org/download.shtml)
+     Tested with PyGame 1.8.1 and 1.9.1-svn2575
+  -PyOpenGL (http://sourceforge.net/projects/pyopengl/files/)
+     Tested with PyOpenGL 3.0.0xx
+  -NumPy (http://sourceforge.net/projects/numpy/files/)
+     Tested with NumPy 1.2.1
+     
+Tested only with NVidia video cards o far.
