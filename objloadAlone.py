@@ -1,47 +1,8 @@
 #!/usr/bin/env python
 # -⁻- coding: UTF-8 -*-
 
-#Tutorial by Ian Mallett
-
-#All tutorials will have the following functions:
-
-#init() -> sets up the scene and any necessary variables
-#quit() -> called at exit; cleans up
-#GetInput() -> handle's the user's input
-#Draw(Window) -> draws the scene
-
-
-#The main file (Tutorial.py) runs all tutorials like:
-
-#init()
-#while True:
-#    GetInput()
-#    Draw(Window)
-#quit()
-
-
-#Each tutorial builds upon the last.  New or different
-#lines will be commented.  Lines described in earlier
-#tutorials will not.  Comments go directly above the
-#lines they describe.  It is recommended that the
-#tutorials be read in order.
-
-#Every tutorial will also have a controls list.
-
-#Controls:
-#ESC           - Return to menu
-#LCLICK + DRAG - Rotate spaceship
-
-#Every tutorial will also have a theory section.
-
-#Theory:
-#glLibObject(...) loads a .obj file, which stores
-#geometric data, returning an object.  The object can
-#then be drawn via object.draw_arrays(...).  Calling
-#object.build_list() and/or object.build_vbo() allows
-#the object to be drawn with a display list or a vertex
-#buffer object.
-
+#OBJ loader loader and sampler by Danilo Vásquez built on top of Ian Mallet's
+#tutorial, using his library
 
 
 #Allow access to OpenGL Library
