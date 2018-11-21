@@ -1,6 +1,6 @@
 This is version 1.0 of 3D-holo-sampler
 
-This project uses glLib library developed by Ian Mallet. On top of that, Danilo Vásquez built the interface for editing scenes, and sampling
+This project uses glLib, a library developed by Ian Mallet. On top of that, Danilo Vásquez built the interface for editing scenes, and sampling
 the objects. 
 
 To execute, just run objloadALone.
@@ -18,4 +18,4 @@ Requirements:
   -NumPy (http://sourceforge.net/projects/numpy/files/)
      Tested with NumPy 1.2.1
      
-Tested only with NVidia video cards o far.
+Tested only with NVidia video cards so far.
